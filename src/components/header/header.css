@@ -1,0 +1,36 @@
+.border{
+    border-bottom: 1px solid #000;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.img{
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.img img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.Admin{
+    display: flex;
+    align-items: center;
+}
+/* 
+@media screen and (max-width: 400px) {
+    .Admin h1 {
+      font-size: 25px;
+    }
+    .border {
+      font-size: 12px;
+    }
+  }
+   */

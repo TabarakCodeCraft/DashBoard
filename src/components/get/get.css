@@ -1,0 +1,36 @@
+.tableStyle {
+    text-align: start;
+    padding: 0%;
+    margin: 0%;
+  }
+  .bar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .table1 .ant-table-thead > tr > th {
+    background-color: #d9d9d9;
+  }
+  .table2 .ant-table-thead > tr > th {
+    background-color: #d9d9d9;
+  }
+  .table2 {
+    display: none;
+    width: 100%;
+    margin: auto;
+  }
+  @media screen and (max-width: 570px) {
+    .table1 {
+      display: none;
+    }
+    .table2 {
+      display: table;
+      width: 100%;
+    }
+  }
+  

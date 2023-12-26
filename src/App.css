@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+}
+.search-box {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 50px;
+  overflow: hidden;
+  align-items: center;
+}
+.search-box button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+@media screen and (max-width: 400px) {
+  .search-box {
+    width: 150px;
+  }
+}
